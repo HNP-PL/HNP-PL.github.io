@@ -1,9 +1,8 @@
 # Site settings
-title: HNP/P/PL
+title: "The Honeynet Project: Polish Chapter"
 email: hnp@cert.pl
 description: # this means to ignore newlines until "baseurl:"
-  Honeynet Project Polish Chapter
-  TEST VERSION - PREVIEW ONLY - IT IS BROKEN (AND WE KNOW IT)
+  HNP/P/PL
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://pl.honeynet.org" # the base hostname & protocol for your site
 

@@ -1,0 +1,71 @@
+---
+layout: post
+title:  Status report for 2013
+date:   2014-02-28 17:01
+---
+
+## Organization ##
+
+The Polish Chapter of the Honeynet Project was founded in November 2011. It consists of ten people:
+
+- Tomasz Grudziecki
+- Paweł Jacewicz
+- Łukasz Juszczyk
+- Piotr Kijewski
+- Adam Kozakiewicz
+- Krzysztof Lasota
+- Paweł Pawliński
+- Tomasz Sałaciński
+- Łukasz Siewierski
+- Maciej Szawłowski
+
+The Polish Chapter of the Honeynet Project (find us at [pl.honeynet.org][1]) consists mostly of people whose daily job is focused on analysing new threats, designing and developing tools and researching methods for efficient mitigation of observed attacks.
+
+Areas of research conducted by the members:
+
+- Anomaly detection
+- Reverse engineering
+- Honeypot technology
+- Web threats
+- Novel methods for threat tracking and identification
+
+In late 2012 Maciej Szawłowski joined our Chapter and in 2013 we got another great member - Łukasz Siewierski. You can read more about them in the [members](/members/) section of our Chapter web page.
+
+## Deployments ##
+
+In the last year, our honeypot infrastructure was rebuild by Łukasz Siewierski. We started a cooperation with a university and we put one of our Honeeebox machines there. This machine was equipped with a Kippo extensions, which supports SFTP and ssh command execution, as well as Dionaea. All the data was transferred to our *hpfriends* account and is shared with responsible parties. We also created two other honeypots - one on the machine provided by a hosting partner and another one on Amazon Web Services account. This machines are configured in the same way as Honeeebox. We also started to work on yet another honeypot installed in CERT Polska infrastructure listening on several different Autonomous Systems.
+
+All this work resulted in the discovery of a new botnet created for different platforms and specializing in performing DDoS attacks. It also allowed for us to collect several hundreds of malicious software samples. All of this data is shared using the CERT Polska n6 platform.
+
+## Research and development ##
+
+In late 2012 Maciej Szawłowski and Tomasz Sałaciński started the Heisenberg project. It is an attempt to create a debugging framework for a whole operating system which will not be affected by such issues as debugger detection by malware or heisenbugs, which are popular among conventional debuggers. Additionally, we wanted to provide unified approach for debugging for different systems on different security levels (userland and kernel space). We also wanted to separate responsibilities of particular elements of a framework in order to conform fundamental principles of UNIX programming. We hope that these assumptions will let us create a useful, efficient, flexible and extensible tool for reverse engineers.
+
+During the year 2013 we conducted research on possible projects that we would incorporate into Heisenberg. We analyzed their architecture, construction and mechanisms and formulated necessary modifications, which were discussed with members of other chapters during Workshop in Dubai in 2013. Our first goal was to use the framework to effectively analyze some malware samples working under control of Windows XP. We achieved it in second half of 2013 year and presented our results on polish security conference Secure 2013.
+
+We continue development of the project by working on refactoring and isolating our modifications into separate plugins. We plan to open the search for additional commiters and open the source code for general public. We also work on preparing several tutorials that could be used for demonstration and learning of Heisenberg framework.
+
+Also in the beginning of 2013, as CERT Polska, we released the Honeyspider Network 2.0 together with sources which are available on CERT Polska GitHub. Also we released a preconfigured VM with the most important HSN 2.0 components ready to use out-of-the-box. There's a community of HSN 2.0 users, which can be accessed here. One can find help there in case HSN 2.0 misbehaves.
+
+## Findings ##
+
+Our current findings and analysis results are posted on CERT Polska blog at [cert.pl][2].
+
+## Papers, presentations and community engagements ##
+
+We started preparations for the 2014 Honeynet Workshop which will be held in Warsaw. Find more and register on [warsaw2014.honeynet.org][3].
+
+## Goals ##
+
+Our goal is to find new methods of efficient detection and fighting malware by conducting research on various security topics. We share our knowledge with the community by creating open source tools, publishing papers and giving presentations. We are also partly involved in creating awareness raising materials, like SANS OUCH! in Polish language and our members are engaged in creating security-related workshops and trainings.
+
+## Misc activities ##
+
+As mentioned in the GOALS section we are involved in creation of various security workshops and trainings, security awareness materials and, as CERT Polska, we host an annual conference - SECURE.
+
+
+
+[1]: http://pl.honeynet.org/
+[2]: http://cert.pl/
+[3]: http://warsaw2014.honeynet.org/
+
