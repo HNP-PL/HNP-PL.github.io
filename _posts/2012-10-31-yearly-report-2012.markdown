@@ -63,7 +63,7 @@ As mentioned in the **Goals** section we are involved in creation of various sec
 Adam Kozakiewicz and Paweł Jacewicz were mentors for GSoC Project 15 - *Further extend Capture-HPC with possibility of detecting malicious behavior on Linux Machines* (more info at [honeynet.org][6]). The student successfully finished the assignment and presented it during the lightning talks session at SECURE 2012 conference.
 
 [1]: http://pl.honeynet.org/
-[2]: /projects/
+[2]: /tools/
 [3]: http://n6.cert.pl/
 [4]: http://cert.pl/
 [5]: http://www.enisa.europa.eu/activities/cert/support/proactive-detection/
