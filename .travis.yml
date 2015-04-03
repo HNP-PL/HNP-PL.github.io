@@ -1,9 +1,13 @@
 language: ruby
 rvm:
 - 2.1
-script: ./cibuild
 
 exclude: [vendor]
+
+script:
+  - bundle exec jekyll build
+#  - bundle exec htmlproof ./_site --only-4xx --check-favicon --check-html
+  - bundle exec htmlproof ./_site --only-4xx --check-html
 
 env:
   global:
