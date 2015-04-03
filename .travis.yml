@@ -6,8 +6,10 @@ exclude: [vendor]
 
 script:
   - bundle exec jekyll build
-#  - bundle exec htmlproof ./_site --only-4xx --check-favicon --check-html
-  - bundle exec htmlproof ./_site --only-4xx --check-html
+  - bundle exec htmlproof ./_site --only-4xx
+# --check-html does not work for us:
+# https://groups.google.com/forum/#!topic/nokogiri-talk/Sz6JCmXHUXU
+# https://github.com/sparklemotion/nokogiri/issues/1243
 
 env:
   global:
