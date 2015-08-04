@@ -13,4 +13,4 @@ permalink: /members/
 - Paweł Pawliński
 - Piotr Kijewski
 - Tomasz Grudziecki
-- Tomasz Sałaciński
+- Marcin Szymankiewicz
